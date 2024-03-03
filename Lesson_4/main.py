@@ -15,9 +15,12 @@
 def method(a,b):
     return a*b, a+b, a-b, a/b
 
-a, b = 10, 2
-numbers = method(a, b)
-summ, diff, multiplication, div = method(a, b)
-print(numbers)
-print(type(numbers))
-print(summ, diff, multiplication, div)
+def task_2():
+    a, b = 10, 2
+    numbers = method(a, b)
+    summ, diff, multiplication, div = method(a, b)
+    print(numbers)
+    print(type(numbers))
+    print(summ, diff, multiplication, div)
+
+task_2()
